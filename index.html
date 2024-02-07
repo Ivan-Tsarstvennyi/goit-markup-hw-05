@@ -385,9 +385,26 @@
                     </li>
                 </ul>
             </div>
+            <div class="backdrop"></div>
+            <div class="modal">
+                <button type="button" class="modal-close">X</button>
+                <p class="text-modal">Leave your contacts and we will call you back</p>
+                <form class="modal-form">
+                    <label for="user-name" class="model-label">Name</label>
+                    <input type=" text" name="user-name" class="modal-input" placeholder="User Name" id="user-name">
+                    <label for="user-phone" class="model-label">Phone</label>
+                    <input type="tel" name="user-phone" class="modal-input" placeholder="User Phone" id="user-phone"
+                        required>
+                    <label for="user-number" class="model-label">Email</label>
+                    <input type="email" name="user-email" class="modal-input" placeholder="User Email" id="user-email">
+
+                    <button class="button-modal" type="submit">Send</button>
+                </form>
+            </div>
 
         </div>
     </footer>
+
 </body>
 
 </html>
