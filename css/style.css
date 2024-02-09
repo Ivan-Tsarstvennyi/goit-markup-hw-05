@@ -569,6 +569,7 @@ transform: translateY(0);
 }
 .email-footer-button{
   color: #ffffff; 
+  min-width: 165px;
   height: 40px;
   display: flex; 
   justify-content: center; 
