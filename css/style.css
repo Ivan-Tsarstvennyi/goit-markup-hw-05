@@ -532,20 +532,22 @@ transform: translateY(0);
 
 .modal{
   align-self: center;
+  margin-left:80px;
 }
 .modal-text{
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px; 
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-left: 43px;
+ 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 .modal-form{
   display: flex;
+  gap: 24px;
   
 }
 .modal-input{
@@ -583,6 +585,7 @@ transform: translateY(0);
   border-radius: 4px; 
   padding: 10px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  top: 400px;
   
  
 }
@@ -600,14 +603,7 @@ transform: translateY(0);
    justify-content: end;
     gap: 16px; 
 }
-.footer-button-input{
-  margin-bottom: 100px;
-  margin-left: 50px;
-  display: flex;
-   align-items: center; 
-   justify-content: center;
-   gap:15px;
-}
+
  .modal-footer-button:hover,
  .modal-footer-button:focus{
   background-color:#31D0AA;
