@@ -529,83 +529,87 @@ transform: translateY(0);
 .footer-ul .link-svg{
   gap: 16px; 
 }
-.backdrop{
-position: fixed;
-top:0;
-width: 100%;
-height: 100%;
-background-color: #5c0a0a8a;
-left: 0;
-}
+
 .modal{
-width: 408px;
-min-height: 584px;
- border-radius: 4px;
- background-color: #D9D9D9;
- position: absolute;
- top: calc(50%-204px);
- left: calc(50%-292px);
- padding: 20px;
+  align-self: center;
 }
-.text-modal{
-font-weight: 500;
-font-size: 16px;
-padding: 16px 40px;
-margin-bottom: 16px;
-line-height: 1.5; 
-letter-spacing: 0.02em;
-color: #ffffff;
+.modal-text{
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px; 
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-left: 43px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+.modal-form{
+  display: flex;
+  
 }
 .modal-input{
   width: 264px;
   height: 40px;
-  margin: 8px;
   border: 1px solid #ffffff;
   background-color: transparent;
   font-size: 12px;
   line-height: 2;
-  letter-spacing: 0.04em; 
+  letter-spacing: 0.04em;
   padding-left: 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff; 
+  
 }
 ::placeholder{
-  color: #ffffff;
+  color: #ffffff; 
 }
-.modal-input 
-.model-label{
-  padding-left: 8px;
-  gap: 24px;
-}
-.modal-close{
- position: absolute;
- right: 24px;
- border-radius: 50%;
- top: 24px; 
- 
- 
-}
-.button-modal{
-  min-width: 165px;
-  height: 40px; 
+.modal-footer-button{
+  color: #ffffff; 
+  height: 40px;
   display: flex; 
-  justify-content: center;
-  align-items: center;
+  justify-content: center; 
+  align-items: center; 
   font-family: "Roboto", sans-serif ;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5 ;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff ;
+  color: #ffffff;
   cursor: pointer;
   background-color: #4D5AE5;
   border: none; 
-  border-radius: 4px;
-  margin: 0px 100px;
+  border-radius: 4px; 
+  padding: 10px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+ 
+}
+.svg-footer-button{
+  margin-left: 16px;
+  fill: #ffffff;
+  right:5px;
+  position: relative;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form{
-display: flex;
-flex-direction: column;
+  position: relative;
+  display: flex;
+   align-items: center; 
+   justify-content: end;
+    gap: 16px; 
 }
-
+.footer-button-input{
+  margin-bottom: 100px;
+  margin-left: 50px;
+  display: flex;
+   align-items: center; 
+   justify-content: center;
+   gap:15px;
+}
+ .modal-footer-button:hover,
+ .modal-footer-button:focus{
+  background-color:#31D0AA;
+  
+}
