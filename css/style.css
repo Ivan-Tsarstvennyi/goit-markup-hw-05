@@ -530,27 +530,27 @@ transform: translateY(0);
   gap: 16px; 
 }
 
-.modal{
+.footer-email{
+  display: flex;
   align-self: center;
   margin-left:80px;
 }
-.modal-text{
+.email-text{
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px; 
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
- 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  bottom: 40px;
   
 }
-.modal-form{
+.email-form{
   display: flex;
   gap: 24px;
   
 }
-.modal-input{
+.email-input{
   width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
@@ -567,7 +567,7 @@ transform: translateY(0);
 ::placeholder{
   color: #ffffff; 
 }
-.modal-footer-button{
+.email-footer-button{
   color: #ffffff; 
   height: 40px;
   display: flex; 
